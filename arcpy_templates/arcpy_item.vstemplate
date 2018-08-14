@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>ArcPyItemTemplate</Name>
+    <Description>ArcPyItemTemplate</Description>
+    <Icon>arcpy_icon.png</Icon>
+    <TemplateID>4a197f98-e3b4-49be-9fe7-22c8ca202bd9</TemplateID>
+    <SortOrder>1000</SortOrder>
+    <DefaultName>arcpy_script.py</DefaultName>
+    <ProjectType>Python</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true">arcpy_script.py</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
