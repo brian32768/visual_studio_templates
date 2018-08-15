@@ -1,0 +1,23 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Arcpy Application</Name>
+    <Description>A Python application using ESRI ArcPy</Description>
+    <ProjectType>Python</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>10</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ArcpyApplication</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>arcpy_icon.png</Icon>
+    <PreviewImage>arcpy_preview.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="arcpy_application.pyproj" File="arcpy_application.pyproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="config.py">config.py</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="arcpy_script.py">arcpy_script.py</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
