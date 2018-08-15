@@ -44,6 +44,8 @@ First fork or clone this project, then open the "solution" in VS.
 Make whatever changes you desire.
 
 I crafted my pyproj and vstemplate files lovingly by hand, you will have to update them if you go this route, or use the wizard.
+If you need to edit the vstemplate file, refer to the documentation. https://docs.microsoft.com/en-us/visualstudio/ide/template-parameters
+If you need to edit the pyproj file, well. Not complicated, good luck, if you find docs let me know.
 
 I have a bash script "install.sh" that zips and copies.
 
