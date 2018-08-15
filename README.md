@@ -3,6 +3,8 @@ Visual Studio templates for ESRI, Javascript, Node, OpenLayers, Python, etc...
 relevant to my GIS work (but apparently regarded as red-headed step children
 by Microsoft).
 
+## The story so far
+
 I tried to follow the instructions on how to build a ".vsix" file, but
 it failed in the usual "let's make everything so complicated and
 opaque that it does not work" fashion often exhibited by Microsoft. It
