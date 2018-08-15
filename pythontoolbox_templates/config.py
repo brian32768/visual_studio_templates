@@ -1,6 +1,6 @@
 """
 $project$ common configuration properties
-@author: $username$
+@author: $author$
 @date:   $time$
 """
 import os

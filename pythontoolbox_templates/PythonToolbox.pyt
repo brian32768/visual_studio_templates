@@ -8,13 +8,10 @@ import sys
 import logging
 import arcpy
 from arcpy import mapping as MAP
-from collections import namedtuple # Useful for reading feature classes
 
-__version__ = "" # Set this to whatever you want or just delete it.
+# Import all the tool classes that will be included in this Python Toolbox.
+from $safeprojectname$_toolclass import $safeprojectname$
 
-class $safeitemname$(object):
-    def __init__(self):
-        return
 
 # ===================================================================================
 if __name__ == "__main__":
@@ -26,9 +23,5 @@ if __name__ == "__main__":
     logging.basicConfig(filename=LOGFILE, level=logging.DEBUG, format=config.LOGFORMAT)
     print("Writing log to %s" % LOGFILE)
 
-    # You can put unit test code here
-    # or you can set up this code to run standalone from command line
-
-    s = $safeitemname$()
 
 # That's all!

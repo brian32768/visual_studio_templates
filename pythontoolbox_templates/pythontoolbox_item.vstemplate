@@ -1,0 +1,15 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>python_tool.py</DefaultName>
+    <Name>PythonTool class</Name>
+    <Description>Python Tool Class for inclusion in an ESRI Python Toolbox</Description>
+    <ProjectType>Python</ProjectType>
+    <SortOrder>20</SortOrder>
+    <Icon>pythontoolbox_icon.png</Icon>
+    <PreviewImage>pythontoolbox_preview.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$safeitemname$.py" ReplaceParameters="true">$safeitemname$.py</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
