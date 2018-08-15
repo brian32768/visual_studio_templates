@@ -1,0 +1,19 @@
+{
+  "name": "$safeprojectname$",
+  "version": "1.0.0",
+  "description": "$projectname$",
+  "author": "$author$",
+  "scripts": {
+    "test":  "parcel index.html --log-level 3",
+    "build": "parcel build index.html --no-minify --log-level 2",
+    "start": "node server.js"
+  },
+  "keywords": [
+      "openlayers",
+      "openlayers 5",
+      "node"
+  ],
+  "dependencies": {
+    "ol": "^5.1.3"
+  }
+}

@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>b4885e61-c60f-44af-af78-86893eb441ac</ProjectGuid>
+    <ProjectGuid>{B4885E61-C60F-44AF-AF78-86893EB441AC}</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
     <StartupFile>arcpy_script.py</StartupFile>

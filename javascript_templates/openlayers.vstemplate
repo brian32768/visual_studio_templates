@@ -1,0 +1,25 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>OpenLayers Application</Name>
+    <Description>OpenLayers Application based on Node</Description>
+    <ProjectType>JavaScript</ProjectType>
+    <ProjectSubType>Node.js</ProjectSubType>
+    <SortOrder>10</SortOrder>
+    <CreateNewFolder>false</CreateNewFolder>
+    <DefaultName>OpenLayersApp</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>openlayers_icon.png</Icon>
+    <PreviewImage>openlayers_preview.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="OpenLayersApp.njsproj" File="OpenLayersApp.njsproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.js">openlayers.js</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.css">openlayers.css</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="package.json">package.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="README.md">README.md</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
