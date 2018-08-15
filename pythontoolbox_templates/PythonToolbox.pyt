@@ -10,10 +10,10 @@ import arcpy
 from arcpy import mapping as MAP
 
 # Import all the tool classes that will be included in this Python Toolbox.
-from $safeprojectname$_toolclass import $safeprojectname$
+from $safeprojectname$_tool import $safeprojectname$
 
 
-# ===================================================================================
+# =============================================================================
 if __name__ == "__main__":
 
     import config
@@ -22,6 +22,5 @@ if __name__ == "__main__":
     LOGFILE = MYNAME + ".log"
     logging.basicConfig(filename=LOGFILE, level=logging.DEBUG, format=config.LOGFORMAT)
     print("Writing log to %s" % LOGFILE)
-
 
 # That's all!

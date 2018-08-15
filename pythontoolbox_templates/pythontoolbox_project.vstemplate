@@ -16,8 +16,8 @@
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="PythonToolbox.pyproj" File="PythonToolbox.pyproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="false" TargetFileName="PythonToolbox.pyt">PythonToolbox.pyt</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="python_tool.py">python_tool.py</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PythonToolbox.pyt">PythonToolbox.pyt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$_tool.py">python_tool.py</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="arcpy_script.py">arcpy_script.py</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="config.py">config.py</ProjectItem>
     </Project>

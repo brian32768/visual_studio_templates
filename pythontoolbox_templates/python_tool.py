@@ -40,7 +40,7 @@ Refer to https://desktop.arcgis.com/en/arcmap/latest/analyze/creating-tools/defi
                                    datatype=["DEFeatureClass", "GPString"],
                                    parameterType="Required", # Required|Optional|Derived
                                    direction="Input", # Input|Output
-                                   )
+        )
         # You can set filters here for example
         #input_fc.filter.list = ["Polygon"]
         # You can set a default if you want -- this makes debugging a little easier.
@@ -52,17 +52,17 @@ Refer to https://desktop.arcgis.com/en/arcmap/latest/analyze/creating-tools/defi
                                 datatype="Field",
                                 parameterType="Required", # Required|Optional|Derived
                                 direction="Input", # Input|Output
-                                )
+        )
         # Define this so that the list of field names will be filled in in ArcCatalog
         field.parameterDependencies = [input_fc.name]
 
         # params[2] 
         datestamp = arcpy.Parameter(name="datestamp",
-                                 displayName="A date string YYYY/MM/DD",
-                                 datatype="GPDate",
-                                 parameterType="Required", # Required|Optional|Derived
-                                 direction="Input", # Input|Output
-                                 )
+                                    displayName="A date string YYYY/MM/DD",
+                                    datatype="GPDate",
+                                    parameterType="Required", # Required|Optional|Derived
+                                    direction="Input", # Input|Output
+        )
         # You can set a default value here.
         datestamp.value = "2017/01/01"
         
@@ -72,7 +72,7 @@ Refer to https://desktop.arcgis.com/en/arcmap/latest/analyze/creating-tools/defi
                                     datatype="GPLong",
                                     parameterType="Required", # Required|Optional|Derived
                                     direction="Input", # Input|Output
-                                    )
+        )
         # You could set a list of acceptable values here for example
         depnumber.filter.type = "Range"
         depnumber.filter.list = [100,500]
@@ -85,7 +85,7 @@ Refer to https://desktop.arcgis.com/en/arcmap/latest/analyze/creating-tools/defi
                                     datatype="DEFeatureClass",
                                     parameterType="Derived", # Required|Optional|Derived
                                     direction="Output", # Input|Output
-                                    )
+        )
         # This is a derived parameter; it depends on the input feature class parameter.
         # You usually use this to define output for using the tool in ESRI models.
         output_fc.parameterDependencies = [input_fc.name]
