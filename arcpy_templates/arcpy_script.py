@@ -9,8 +9,9 @@ import logging
 import arcpy
 from arcpy import mapping as MAP
 
-class $safeitemname%(object):
-
+class $safeitemname$(object):
+    def __init__(self):
+        return
 
 # ===================================================================================
 if __name__ == "__main__":
@@ -22,5 +23,6 @@ if __name__ == "__main__":
     logging.basicConfig(filename=LOGFILE, level=logging.DEBUG, format=config.LOGFORMAT)
     print("Writing log to %s" % LOGFILE)
 
+    s = $safeitemname$()
 
 # That's all!
